@@ -1,0 +1,27 @@
+{
+  "name": "zhile-ui",
+  "version": "1.0.0",
+  "description": "zhile-ui组件库",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp build && gulp watch",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zhile-ui",
+    "vue",
+    "zhile-ui组件库",
+    "UI",
+    "UI组件库"
+  ],
+  "author": "it-zhile",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "postcss-salad": "^2.0.1"
+  }
+}

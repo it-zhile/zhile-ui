@@ -1,0 +1,142 @@
+.l__button {
+    display      : inline-block;
+    padding      : 10px 20px;
+    border-width : 1px;
+    border-style : solid;
+    border-radius: 4px;
+    color        : $color-white;
+    cursor       : pointer;
+    user-select  : none;
+
+    &.is-rund {
+        border-radius: 50px;
+    }
+}
+
+.l__button--default {
+    color       : $color-default;
+    border-color: $color-line;
+
+    &:hover,
+    &:focus {
+        color           : $color-primary;
+        border-color    : $color-primary;
+        background-color: rgba($color-primary, 0.1);
+    }
+
+    &.is-plain {
+
+        &:hover,
+        &:focus {
+            background-color: $color-white;
+        }
+    }
+}
+
+
+.l__button--primary {
+    background-color: $color-primary;
+    border-color    : $color-primary;
+
+    &:hover,
+    &:focus {
+        background-color: rgba($color-primary, 0.8);
+    }
+
+    &.is-plain {
+        color           : $color-primary;
+        background-color: rgba($color-primary, 0.1);
+
+        &:hover,
+        &:focus {
+            color           : $color-white;
+            background-color: $color-primary;
+        }
+    }
+}
+
+
+.l__button--success {
+    background-color: $color-success;
+    border-color    : $color-success;
+
+    &:hover,
+    &:focus {
+        background-color: rgba($color-success, 0.8);
+    }
+
+    &.is-plain {
+        color           : $color-success;
+        background-color: rgba($color-success, 0.1);
+
+        &:hover,
+        &:focus {
+            color           : $color-white;
+            background-color: $color-success;
+        }
+    }
+}
+
+.l__button--warning {
+    background-color: $color-warning;
+    border-color    : $color-warning;
+
+    &:hover,
+    &:focus {
+        background-color: rgba($color-warning, 0.8);
+    }
+
+    &.is-plain {
+        color           : $color-warning;
+        background-color: rgba($color-warning, 0.1);
+
+        &:hover,
+        &:focus {
+            color           : $color-white;
+            background-color: $color-warning;
+        }
+    }
+}
+
+.l__button--info {
+    background-color: $color-info;
+    border-color    : $color-info;
+
+    &:hover,
+    &:focus {
+        background-color: rgba($color-info, 0.8);
+    }
+
+
+    &.is-plain {
+        color           : $color-info;
+        background-color: rgba($color-info, 0.1);
+
+        &:hover,
+        &:focus {
+            color           : $color-white;
+            background-color: $color-info;
+        }
+    }
+}
+
+.l__button--danger {
+    background-color: $color-danger;
+    border-color    : $color-danger;
+
+    &:hover,
+    &:focus {
+        background-color: rgba($color-danger, 0.8);
+    }
+
+    &.is-plain {
+        color           : $color-danger;
+        background-color: rgba($color-danger, 0.1);
+
+        &:hover,
+        &:focus {
+            color           : $color-white;
+            background-color: $color-danger;
+        }
+    }
+}
