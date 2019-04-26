@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// 这是dev分支
+// 修改了dev分支
 import demoBlock from './components/demo-block.vue'
 Vue.component('demo-block', demoBlock)
 
